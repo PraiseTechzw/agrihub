@@ -1,3 +1,4 @@
+import 'package:agrihub/pages/auth/register.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -42,7 +43,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             right: 20,
             child: TextButton(
               onPressed: () {
-                // Implement skip functionality
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Register()),
+                );
               },
               child: const Text("Skip"),
             ),
