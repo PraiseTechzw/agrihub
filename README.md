@@ -21,9 +21,9 @@ AgriHub is a Flutter-based mobile application designed to connect farmers with e
 ## Clone the repository:
 ``
 bash ``
-``Copy code``
-``git clone https://github.com/praisetechzw/agrihub.git``
-``cd agrihub``
+- ``Copy code``
+- ``git clone https://github.com/praisetechzw/agrihub.git``
+- ``cd agrihub``
 
 
 Install dependencies:
